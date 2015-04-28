@@ -4,7 +4,7 @@ module Lessonly
       attr_accessor :lesson, 
         :candidate,
         :score, 
-        :report_card, 
+        :report_card_url, 
         :completed_at,
         :started_at,
         :assigned_at
