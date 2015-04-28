@@ -1,8 +1,8 @@
 module Lessonly
   module Api
-    class Lesson
+    class ReportCard
       include Nullable
-      attr_accessor :id
+      attr_accessor :url
     end
   end
 end

@@ -1,8 +1,7 @@
 module Lessonly
   module Api
-    class Lesson
+    class Score
       include Nullable
-      attr_accessor :id
     end
   end
 end
