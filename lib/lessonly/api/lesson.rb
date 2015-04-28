@@ -2,9 +2,7 @@ require 'naught'
 
 module Lessonly
   module Api
-    class Lesson
-      attr_accessor :id, :title
-
+    class Lesson < Struct.new(:id,:title)
       def self.null
         @@null ||= Naught.build do |config| 
           config.mimic Lesson
